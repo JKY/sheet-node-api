@@ -3,7 +3,6 @@
 具体文档参见: https://postio.me/tutorial/doc
 
 ## 服务配置
-在 settings.js 中可对服务进行配置
 
 * endpoint: 服务地址, 系统会发送通知到此地址
 * trigger:  触发条件
