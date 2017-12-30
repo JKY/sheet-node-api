@@ -1,0 +1,22 @@
+{
+  "name": "sheet-node-api",
+  "version": "0.5.0",
+  "scripts": {
+    "commit": "node scripts/commit.js"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "colors": "*",
+    "crypto": "*",
+    "express": "^4.10",
+    "express-minify": "*",
+    "express-stylus": "^0.1.0",
+    "formidable": "*",
+    "moment": "*",
+    "mongodb": "*",
+    "mongoose": "^4.7.1",
+    "request": "*",
+    "url": "^0.11.0",
+    "urlencode": "*"
+  }
+}

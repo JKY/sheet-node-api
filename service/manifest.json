@@ -1,0 +1,28 @@
+{
+	"name":"",
+	"label":"",
+	"desc":"....",
+	"keywords":"",
+	"uid":"",
+	"public":true,
+	"uri":"http://localhost:9010/service/buildin/payment",
+	"conf":[
+		{
+			"name":"a",
+			"label":"名称",
+			"type":"selector",
+			"value":"",
+			"options":[
+				{ "label":"A","value":"A"},
+				{ "label":"B","value":"B"},
+				{ "label":"C","value":"C"}
+			]
+		},
+		{
+			"name":"b",
+			"label":"名称",
+			"type":"input",
+			"value":""
+		}
+	]
+}
