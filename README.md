@@ -7,25 +7,25 @@
 在 settings.js 中可对服务进行配置
 
 ```
-	/* 服务地址, 系统会发送通知到此地址 */
-	endpoint:'http://localhost:8001',
-	/* 触发条件 */
-	trigger:'cell.updated',
-	/* 服务名称, 不能重复 */
-	name:'foo',
-	/* 显示的服务名称 */
-	label:'测试',
-	/* 服务描述 */
-	desc:'foo',
-	/* 搜索关键字 */
-	keywords:'test',
-	/* 是否公开 */
-	public:false,
-	/* 用户设置 */
-	user:{
-		/* 用户安装服务后的设置, 具体内容参见文档 */
-		conf: []
-	}
+/* 服务地址, 系统会发送通知到此地址 */
+endpoint:'http://localhost:8001',
+/* 触发条件 */
+trigger:'cell.updated',
+/* 服务名称, 不能重复 */
+name:'foo',
+/* 显示的服务名称 */
+label:'测试',
+/* 服务描述 */
+desc:'foo',
+/* 搜索关键字 */
+keywords:'test',
+/* 是否公开 */
+public:false,
+/* 用户设置 */
+user:{
+	/* 用户安装服务后的设置, 具体内容参见文档 */
+	conf: []
+}
 
 ```
 
@@ -34,16 +34,16 @@
 
 安装依赖
 ```
-	npm install 
+npm install 
 ```
 
 运行
 ```
-	node app.js 
+node app.js 
 ```
 
 
 提交服务
 ```
-	npm run commit USERNAME PASSWORD
+npm run commit USERNAME PASSWORD
 ```
