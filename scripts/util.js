@@ -95,7 +95,7 @@ const commitPackage = function(ticket) {
                 conf['public'] = settings.service.public;
                 conf['conf'] = settings.service.user.conf;
                 request({
-                    url: `http://localhost:9010/api/service`,
+                    url: `https://sheet.postio.me/api/service`,
                     method: 'POST',
                     headers: {
                         ticket: ticket
